@@ -11,8 +11,8 @@
 	<body>
 		<div class="container" style="margin-top: 50px">
 
-			<?php require_once "./calcController.php";?>
-
+			<?php require_once "./CalculatorController.php";?>
+            <h1>Basic Calculator</h1>
 		    <!-- Calculator - form -->
 		    <form method="post">
 		        <input name="num_1" type="text" class="form-control textInput" />
